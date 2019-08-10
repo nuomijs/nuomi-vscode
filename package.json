@@ -1,10 +1,10 @@
 {
-	"name": "nuomi-helper",
+	"name": "nuomi-vscode",
 	"publisher": "yinjiazeng",
-	"displayName": "nuomi-helper",
+	"displayName": "nuomi-vscode",
 	"description": "nuomi helper for vscode",
 	"version": "0.0.1",
-	"repository": "https://github.com/nuomijs/nuomi-helper",
+	"repository": "https://github.com/nuomijs/nuomi-vscode",
 	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^1.37.0"
@@ -40,13 +40,15 @@
 		"pretest": "yarn run compile",
 		"test": "node ./out/test/runTest.js"
 	},
+	"dependencies": {
+		"fs-extra": "^8.1.0"
+	},
 	"devDependencies": {
 		"@types/fs-extra": "^8.0.0",
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^5.2.6",
 		"@types/node": "^10.12.21",
 		"@types/vscode": "^1.37.0",
-		"fs-extra": "^8.1.0",
 		"glob": "^7.1.4",
 		"mocha": "^6.1.4",
 		"tslint": "^5.12.1",
