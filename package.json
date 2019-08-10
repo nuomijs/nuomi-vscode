@@ -10,11 +10,9 @@
 		"vscode": "^1.37.0"
 	},
 	"categories": [
-		"Other"
+		"Other", "Snippets"
 	],
-	"activationEvents": [
-		"onCommand:extension.createNuomiFolder"
-	],
+	"activationEvents": ["*"],
 	"main": "./out/extension",
 	"contributes": {
 		"commands": [
@@ -31,7 +29,21 @@
 					"when": "explorerResourceIsFolder"
 				}
 			]
-		}
+		},
+		"snippets": [
+			{
+                "language": "javascript",
+                "path": "./snippets/nuomi.json"
+			},
+			{
+                "language": "typescriptreact",
+                "path": "./snippets/nuomi.json"
+			},
+			{
+                "language": "typescript",
+                "path": "./snippets/nuomi.json"
+            }
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",

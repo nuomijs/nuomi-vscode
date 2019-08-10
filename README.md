@@ -1,7 +1,7 @@
 # nuomi-vscode
 
 ## 介绍
-nuomi助手是针对nuomijs开发的vscode插件，提供了快速生成nuomi目录以及代码片段功能，用于提升开发效率。
+nuomi-vscode是针对nuomijs开发的vscode插件，提供了快速生成nuomi目录以及代码片段功能，用于提升开发效率。
 
 ## 功能
 ### 生成nuomi目录
