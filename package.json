@@ -3,7 +3,7 @@
   "publisher": "yinjiazeng",
   "displayName": "nuomi-vscode",
   "description": "nuomi helper for vscode",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nuomijs/nuomi-vscode.git"
